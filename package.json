@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-wrap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wrap a value on the half-open interval [min,max).",
   "license": "Apache-2.0",
   "author": {
