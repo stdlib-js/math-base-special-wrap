@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-wrap
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-wrap = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.wrap;
-})();
-</script>
+var wrap = require( '@stdlib/math-base-special-wrap' );
 ```
 
 #### wrap( v, min, max )
@@ -127,14 +125,9 @@ var v = wrap( 3.14, 3.0, 3.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var wrap = require( '@stdlib/math-base-special-wrap' );
 
 var min;
 var max;
@@ -147,11 +140,6 @@ for ( i = 0; i < 100; i++ ) {
     v = discreteUniform( -20.0, 20.0 );
     console.log( 'wrap(%d,%d,%d) => %d', v, min, max, wrap( v, min, max ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -245,12 +233,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/math-base-special-wrap/tree/deno
 [umd-url]: https://github.com/stdlib-js/math-base-special-wrap/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-base-special-wrap/tree/esm
+[branches-url]: https://github.com/stdlib-js/math-base-special-wrap/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-wrap/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp/tree/umd
+[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp
 
 <!-- </related-links> -->
 
