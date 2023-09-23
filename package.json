@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-wrap",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Wrap a value on the half-open interval [min,max).",
   "license": "Apache-2.0",
   "author": {
@@ -39,16 +39,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/math-base-special-trunc": "^0.0.8",
-    "@stdlib/utils-library-manifest": "^0.0.8"
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-special-trunc": "^0.1.0",
+    "@stdlib/utils-library-manifest": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/math-base-assert-is-positive-zero": "^0.0.8",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/math-base-assert-is-positive-zero": "^0.1.0",
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "@stdlib/random-base-randu": "^0.0.8",
-    "@stdlib/utils-try-require": "^0.0.7",
+    "@stdlib/utils-try-require": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
