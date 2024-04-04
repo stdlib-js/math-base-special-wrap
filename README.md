@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-wrap/tags). For example,
+
+```javascript
 import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@v0.2.2-esm/index.mjs';
 ```
 
@@ -127,7 +132,7 @@ var v = wrap( 3.14, 3.0, 3.0 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@v0.2.2-esm/index.mjs';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@esm/index.mjs';
 
 var min;
 var max;
