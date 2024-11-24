@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`184d71f`](https://github.com/stdlib-js/stdlib/commit/184d71f0d04083ef6e64b641eccfc322273f544c) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`a294334`](https://github.com/stdlib-js/stdlib/commit/a294334209d981a41f61bda8fd222e1c555f0c5a) - **style:** fix spacing [(#2872)](https://github.com/stdlib-js/stdlib/pull/2872) _(by Gunj Joshi)_
