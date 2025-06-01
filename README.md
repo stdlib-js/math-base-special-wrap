@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Wrap a value on the half-open interval `[min,max)`.
+> Wrap a value to the half-open interval `[min,max)`.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -75,7 +75,7 @@ var wrap = require( '@stdlib/math-base-special-wrap' );
 
 #### wrap( v, min, max )
 
-Wraps a value on the half-open interval `[min,max)`.
+Wraps a value to the half-open interval `[min,max)`.
 
 ```javascript
 var v = wrap( 3.14, 0.0, 5.0 );
@@ -185,7 +185,7 @@ logEachMap( 'wrap(%d,%d,%d) => %0.4f', v, min, max, wrap );
 
 #### stdlib_base_wrap( v, min, max )
 
-Wraps a value on the half-open interval `[min,max)`.
+Wraps a value to the half-open interval `[min,max)`.
 
 ```c
 double v = stdlib_base_wrap( 3.14, 0.0, 5.0 );
