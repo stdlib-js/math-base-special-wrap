@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@deno/mod.js';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@v0.2.4-deno/mod.js';
 ```
 
 #### wrap( v, min, max )
@@ -123,7 +123,7 @@ var v = wrap( 3.14, 3.0, 3.0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@deno/mod.js';
+import wrap from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-wrap@v0.2.4-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
